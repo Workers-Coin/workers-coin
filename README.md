@@ -1,14 +1,37 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+This is the reference code for [Worktips](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
 
-#### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+### Worktips is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
-#### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+* Homepage: [Worktips](http://worktips.info)
+* Source code repository: [Worktips GitHub](https://github.com/worktips/worktipscoin)
+* Announcement thread: [Worktips BitcoinTalk](https://bitcointalk.org/index.php?topic=3086019.0)
+* Discord: [Worktips Discord](https://discord.gg/UmZExyz)
+* Twitter: [Worktips Twitter](https://twitter.com/wtipscoin)
+* Telegram: [Worktips Telegram](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
+* Reddit: [Worktips Reddit](https://www.reddit.com/r/worktipscoin)
+* Whitepaper: [Worktips Whitepaper](http://worktips.info/whitepaper_worktips.zip)
+* Block explorer: [Worktips Block explorer](http://worktips-explorer.online)
+
+
+## Worktips
+
+Worktips is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
+
+- Algorithm: CryptoNightLite V1
+- Max. supply: 184,467,440,735.0
+- CryptoNote name: worktips
+- Decimal points: 8
+- Block time: 90
+- Ticker: WTIP
+- Emission speed factor: 20
+- LWMA-2 difficulty algo
+- P2P port: 17239
+- RPC port: 18238
+
 
 ### Installing
 
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
+We offer binary images of the latest releases here: http://workerscoin.info
 
 If you would like to compile yourself, read on.
 
@@ -35,8 +58,8 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -45,7 +68,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkersCoind --version`
 
 ##### Ubuntu, using Clang
 
@@ -69,8 +92,8 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `sudo pip install cmake`
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -79,7 +102,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkersCoind --version`
 
 ##### Generic Linux
 
@@ -88,8 +111,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -98,7 +121,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkerCoind --version`
 
 #### OSX/Apple, using GCC
 
@@ -112,8 +135,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm gcc@8`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -122,7 +145,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkersCoind --version`
 
 #### OSX/Apple, using Clang
 
@@ -136,8 +159,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm`
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -146,7 +169,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkersCoind --version`
 
 
 #### Windows
@@ -160,7 +183,7 @@ The binaries will be in the `src` folder when you are complete.
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_workerscoin_directory>`
 - `mkdir build`
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
@@ -168,13 +191,13 @@ The binaries will be in the `src` folder when you are complete.
 
 If you have errors on this step about not being able to find the following static libraries, you may need to update your cmake. Open 'Visual Studio Installer' and click 'Update'.
 
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /m`
+- `MSBuild WorkersCoin.sln /p:Configuration=Release /m`
 
 The binaries will be in the `src/Release` folder when you are complete.
 
 - `cd src`
 - `cd Release`
-- `TurtleCoind.exe --version`
+- `WorkersCoind.exe --version`
 
 #### Raspberry Pi 3 B+ (AARCH64/ARM64)
 The following images are known to work. Your operation system image **MUST** be 64 bit.
@@ -189,8 +212,8 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
+- `cd workers-coin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -199,7 +222,7 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./WorkersCoind --version`
 
 #### Thanks
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
