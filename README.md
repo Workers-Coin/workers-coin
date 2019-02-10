@@ -1,6 +1,6 @@
 This is the reference code for [WorkersCoin](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
 
-### Worktips is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
+### WorkersCoin is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
 * Homepage: [WorkersCoin](http://workerscoin.info)
 * Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workers-coin)
