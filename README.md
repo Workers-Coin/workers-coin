@@ -2,29 +2,28 @@ This is the reference code for [Worktips](https://worktips.info) cryptocurrency.
 
 ### Worktips is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
-* Homepage: [Worktips](http://worktips.info)
-* Source code repository: [Worktips GitHub](https://github.com/worktips/worktipscoin)
-* Announcement thread: [Worktips BitcoinTalk](https://bitcointalk.org/index.php?topic=3086019.0)
-* Discord: [Worktips Discord](https://discord.gg/UmZExyz)
-* Twitter: [Worktips Twitter](https://twitter.com/wtipscoin)
-* Telegram: [Worktips Telegram](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
-* Reddit: [Worktips Reddit](https://www.reddit.com/r/worktipscoin)
+* Homepage: [Worktips](http://workerscoin.info)
+* Source code repository: [Worktips GitHub](https://github.com/Workers-Coin/workers-coin)
+* Announcement thread: [Worktips BitcoinTalk NOT COMPLETE](https://bitcointalk.org/index.php?topic=3086019.0)
+* Discord: [Worktips Discord NOT COMPLETE](https://discord.gg/UmZExyz)
+* Twitter: [Worktips Twitter NOT COMPLETE](https://twitter.com/wtipscoin)
+* Telegram: [Worktips Telegram NOT COMEPLETE](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
+* Reddit: [Worktips Reddit NOT COMPLETE](https://www.reddit.com/r/worktipscoin)
 * Whitepaper: [Worktips Whitepaper](http://worktips.info/whitepaper_worktips.zip)
-* Block explorer: [Worktips Block explorer](http://worktips-explorer.online)
+* Block explorer: [Worktips Block explorer NOT COMPLETE](http://worktips-explorer.online)
 
 
 ## Worktips
 
 Worktips is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
 
-- Algorithm: CryptoNightLite V1
+- Algorithm: CryptoNight Turtle
 - Max. supply: 184,467,440,735.0
-- CryptoNote name: worktips
+- CryptoNote name: workerscoin
 - Decimal points: 8
 - Block time: 90
-- Ticker: WTIP
+- Ticker: WORK
 - Emission speed factor: 20
-- LWMA-2 difficulty algo
 - P2P port: 17239
 - RPC port: 18238
 
