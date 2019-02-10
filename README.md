@@ -13,7 +13,7 @@ This is the reference code for [WorkersCoin](https://worktips.info) cryptocurren
 * Block explorer: [WorkersCoin Block explorer NOT COMPLETE](http://worktips-explorer.online)
 
 
-## Worktips
+## Workers Coin
 
 WorkersCoin is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
 
