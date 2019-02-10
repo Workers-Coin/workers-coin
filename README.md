@@ -5,7 +5,7 @@ This is the reference code for [Workers Coin](https://worktips.info) cryptocurre
 * Homepage: [WorkersCoin](http://workerscoin.info)
 * Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workers-coin)
 * Announcement thread: [WorkersCoin BitcoinTalk NOT COMPLETE](https://bitcointalk.org/index.php?topic=3086019.0)
-* Discord: [WorkersCoin Discord NOT COMPLETE](https://discord.gg/UmZExyz)
+* Discord: [WorkersCoin Discord](https://discord.gg/5AVF3Yh)
 * Twitter: [WorkersCoin Twitter NOT COMPLETE](https://twitter.com/wtipscoin)
 * Telegram: [WorkersCoin Telegram NOT COMEPLETE](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
 * Reddit: [WorkersCoin Reddit NOT COMPLETE](https://www.reddit.com/r/worktipscoin)
