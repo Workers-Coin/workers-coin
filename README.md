@@ -1,6 +1,6 @@
-This is the reference code for [WorkersCoin](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
+This is the reference code for [Workers Coin](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
 
-### WorkersCoin is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
+### Workers Coin is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
 * Homepage: [WorkersCoin](http://workerscoin.info)
 * Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workers-coin)
@@ -15,7 +15,7 @@ This is the reference code for [WorkersCoin](https://worktips.info) cryptocurren
 
 ## Workers Coin
 
-WorkersCoin is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
+Workers Coin is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
 
 - Algorithm: CryptoNight Turtle
 - Max. supply: 184,467,440,735.0
