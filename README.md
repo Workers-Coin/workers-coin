@@ -1,21 +1,21 @@
-This is the reference code for [Worktips](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
+This is the reference code for [WorkersCoin](https://worktips.info) cryptocurrency. Read the Changelogs.txt for more info about the current fork.
 
 ### Worktips is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
-* Homepage: [Worktips](http://workerscoin.info)
-* Source code repository: [Worktips GitHub](https://github.com/Workers-Coin/workers-coin)
-* Announcement thread: [Worktips BitcoinTalk NOT COMPLETE](https://bitcointalk.org/index.php?topic=3086019.0)
-* Discord: [Worktips Discord NOT COMPLETE](https://discord.gg/UmZExyz)
-* Twitter: [Worktips Twitter NOT COMPLETE](https://twitter.com/wtipscoin)
-* Telegram: [Worktips Telegram NOT COMEPLETE](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
-* Reddit: [Worktips Reddit NOT COMPLETE](https://www.reddit.com/r/worktipscoin)
-* Whitepaper: [Worktips Whitepaper](http://worktips.info/whitepaper_worktips.zip)
-* Block explorer: [Worktips Block explorer NOT COMPLETE](http://worktips-explorer.online)
+* Homepage: [WorkersCoin](http://workerscoin.info)
+* Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workers-coin)
+* Announcement thread: [WorkersCoin BitcoinTalk NOT COMPLETE](https://bitcointalk.org/index.php?topic=3086019.0)
+* Discord: [WorkersCoin Discord NOT COMPLETE](https://discord.gg/UmZExyz)
+* Twitter: [WorkersCoin Twitter NOT COMPLETE](https://twitter.com/wtipscoin)
+* Telegram: [WorkersCoin Telegram NOT COMEPLETE](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
+* Reddit: [WorkersCoin Reddit NOT COMPLETE](https://www.reddit.com/r/worktipscoin)
+* Whitepaper: [WorkersCoin Whitepaper](http://worktips.info/whitepaper_worktips.zip)
+* Block explorer: [WorkersCoin Block explorer NOT COMPLETE](http://worktips-explorer.online)
 
 
 ## Worktips
 
-Worktips is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
+WorkersCoin is an ASIC resistant cryptocurrency designed for mining and perfect for rewarding
 
 - Algorithm: CryptoNight Turtle
 - Max. supply: 184,467,440,735.0
