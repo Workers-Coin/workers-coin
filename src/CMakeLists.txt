@@ -161,7 +161,7 @@ add_dependencies(WalletService version)
 add_dependencies(zedwallet version)
 
 # Finally build the binaries
-set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "WokrersCoind")
+set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "WorkersCoind")
 set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
 set_property(TARGET service PROPERTY OUTPUT_NAME "workers-service")
