@@ -46,7 +46,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 20;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 /* Premine amount */
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(1000001000);
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(100000000000000000);
 
 /* How to generate a premine:
 
@@ -68,7 +68,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff000100025c547b389f4a16603edc29b1dd18f530b93d9a5b1289e8461e7f0dc23534e67121014e81a758dca5fd53e18a3b9fda458396e0a1b0800eb845be8c4b7f6fee96e0ac";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
@@ -254,8 +254,8 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "http://latest.turtlecoin.lol";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[]                          = "http://workerscoin.info";
+const std::string LICENSE_URL                                = "https://github.com/workersc-coin/workerscoin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x62, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa5, 0xb6, 0xc1, 0x43, 0xe8  }
