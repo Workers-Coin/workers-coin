@@ -3,7 +3,7 @@ This is the reference code for [Workers Coin](https://worktips.info) cryptocurre
 ### Workers Coin is based on the [Coin](https://github.com/turtlecoin) v0.12.1 code base.
 
 * Homepage: [WorkersCoin](http://workerscoin.info)
-* Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workers-coin)
+* Source code repository: [WorkersCoin GitHub](https://github.com/Workers-Coin/workerscoin)
 * Announcement thread: [WorkersCoin BitcoinTalk NOT COMPLETE](https://bitcointalk.org/index.php?topic=3086019.0)
 * Discord: [WorkersCoin Discord](https://discord.gg/5AVF3Yh)
 * Twitter: [WorkersCoin Twitter NOT COMPLETE](https://twitter.com/wtipscoin)
@@ -57,8 +57,8 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -91,8 +91,8 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `sudo pip install cmake`
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -110,8 +110,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -134,8 +134,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm gcc@8`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -158,8 +158,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm`
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -211,8 +211,8 @@ Once you have a 64 bit image installed, setup proceeds the same as any Linux dis
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/Workers-Coin/workers-coin`
-- `cd workers-coin`
+- `git clone -b master --single-branch https://github.com/Workers-Coin/workerscoin`
+- `cd workerscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
