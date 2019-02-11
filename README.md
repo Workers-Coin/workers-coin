@@ -10,7 +10,7 @@ This is the reference code for [Workers Coin](https://worktips.info) cryptocurre
 * Telegram: [WorkersCoin Telegram NOT COMEPLETE](https://t.me/joinchat/HOvygRE-6UnWOzoh72NVMA)
 * Reddit: [WorkersCoin Reddit NOT COMPLETE](https://www.reddit.com/r/worktipscoin)
 * Whitepaper: [WorkersCoin Whitepaper](http://worktips.info/whitepaper_worktips.zip)
-* Block explorer: [WorkersCoin Block explorer NOT COMPLETE](http://worktips-explorer.online)
+* Block explorer: [WorkersCoin Block explorer](http://explorer.workerscoin.info)
 
 
 ## Workers Coin
