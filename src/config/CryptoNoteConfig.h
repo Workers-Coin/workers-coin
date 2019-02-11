@@ -255,7 +255,7 @@ const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
 const char     LATEST_VERSION_URL[]                          = "http://workerscoin.info";
-const std::string LICENSE_URL                                = "https://github.com/workersc-coin/workerscoin/blob/master/LICENSE";
+const std::string LICENSE_URL                                = "https://github.com/workers-coin/workerscoin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x62, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa5, 0xb6, 0xc1, 0x43, 0xe8  }
